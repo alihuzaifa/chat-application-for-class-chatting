@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- Bootstrap CDN link -->
+    <link rel="stylesheet" href="../../../../Bootstrap/bootstrap.css">
+
+    <!-- Custom Css link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="../../../../firebase-config.js" type="module"></script>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/chat app logo.png" alt="Bootstrap" width="40" height="40">
+                    <span class="fw-bold text-white mt-4">CHAT APPLICATION</span>
+                </a>
+                <div class="d-flex">
+                    <img src="message/images/account-logout-512.png" width="40" height="40" class="img-fluid logout text-end"
+                        alt="logout">
+                </div>
+            </div>
+        </nav>
+    </header>
+  
+    <!-- Main -->
+    <div class="container">
+        <div class="row">
+
+            <div class="col-6 offset-3">
+                <div class="container-fluid">
+                    <div class="row mt-3 py-2" id="top-box">
+                        <div class="col">
+                            <img src="images/add.jpg" class="img-fluid person" alt="person">
+                        </div>
+                        <div class="col text-end">
+                            <img src="images/icons8-reply-arrow-48.png" class="img-fluid" alt="dots">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col py-4 px-2">
+                            <input class="form-control search-friend" type="search" placeholder="Search" aria-label="Search">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row list mb-5">
+                        <!-- Friend list -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- custom javascript -->
+    <script src="chat.js" type="module"></script>
+</body>
+
+</html>

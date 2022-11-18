@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(#322e33,#474647) !important;
+}
+
+.navbar {
+    background: linear-gradient(#812292, #9547a3);
+}
+
+#box {
+    background: linear-gradient(#da82e5,#ea61fc);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    border-radius: 15px !important;
+}
+
+#top-box {
+    background: linear-gradient(#66446d, #6c3075);
+    border-radius: 15px !important;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.person {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.list {
+    cursor: pointer;
+}
+
+.dot {
+    margin-left: 100px !important;
+}
+
+.friend {
+    width: 60px !important;
+    height: 30px !important;
+    margin-top: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.message-person {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0.2px solid black;
+
+}
+
+.logout {
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.friend-name {
+    cursor: pointer;
+}

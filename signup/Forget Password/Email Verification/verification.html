@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <!-- Bootstrap CDN link -->
+  <link rel="stylesheet" href="../../../Bootstrap/bootstrap.css">
+
+  <!-- Custom Css link -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="../../../firebase-config.js" type="module"></script>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+      <nav class="navbar navbar-light">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="images/chat app logo.png" alt="Bootstrap" width="40" height="40">
+                  <span class="fw-bold text-white mt-4">CHAT APPLICATION</span>
+              </a>
+          </div>
+      </nav>
+  </header>
+
+  
+  <!-- Sign Up -->
+  <section class="wrapper pt-5">
+    <div class="container mt-5">
+      <form action="javascript:void(0)" class="rounded shadow p-5" id="box">
+        <h3 class="fw-bolder fs-4 mb-3 text-white text-center">EMAIL VERIFICATION</h3>
+        <p class="fw-bolder fs-5 mb-3 text-white text-center">The email has been send to your gmail to verify</p>
+        <button class="btn btn-light w-100 submit my-2 fw-bold" id="submit-data">Resend Email</button>
+        <button class="btn btn-light w-100 submit my-2 fw-bold" id="verify">Verified</button>
+        <p class="verify-email"></p>
+      </form>
+    </div>
+  </section>
+
+
+
+  <!-- custom javascript -->
+  <script src="verification.js" type="module"></script>
+</body>
+
+</html>

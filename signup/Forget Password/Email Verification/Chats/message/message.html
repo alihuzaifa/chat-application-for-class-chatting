@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- Bootstrap CDN link -->
+    <link rel="stylesheet" href="../../../../../Bootstrap/bootstrap.css">
+
+    <!-- Custom Css link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="../../../../../firebase-config.js" type="module"></script>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/chat app logo.png" alt="Bootstrap" width="40" height="40">
+                    <span class="fw-bold text-white mt-4">CHAT APPLICATION</span>
+                </a>
+                <div class="d-flex">
+                    <img src="images/account-logout-512.png" width="40" height="40" class="img-fluid logout text-end"
+                        alt="logout">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+    <!-- Main -->
+    <div class="container">
+        <div class="row">
+            <div class="col-7 offset-2 mt-4 d-flex my-data py-4 rounded-start">
+                <img src="../images/add.jpg" class="img-fluid person" alt="person" id="message-person">
+                <h5 class="name mt-3 ms-2 text-white fw-bold current-user-name">Ali Huzaifa</h5>
+                <h5 class="number mt-3 ms-2 text-white fw-bold current-user-number">03111260357</h5>
+            </div>
+            <div class="col-1 mt-4 my-data py-4 rounded-end">
+
+            </div>
+            <div class="col-8 offset-2">
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="box">
+        <div class="row messageData">
+            <!-- Messages list -->
+        </div>
+
+
+
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8 offset-2 d-flex mt-2">
+                <input class="form-control py-2 message-input" type="search" placeholder="Enter Message"
+                    aria-label="Search">
+                <div class="btn btn-success send ms-1">Send</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- custom javascript -->
+    <script src="message.js" type="module"></script>
+</body>
+
+</html>
